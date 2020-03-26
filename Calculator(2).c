@@ -1,15 +1,15 @@
 #include <stdio.h>
 void main() {
-    int a,b,add,mul,sub;
-    float div;
+    
+    float a,b,add,mul,sub,div;
     printf("*****************************************************\n\n");
     printf("\tProgram to that perform as CALCULATOR.\n\n");
     printf("*****************************************************\n\n");
     printf("Enter value of \"a\"=");
-    scanf("%d",&a);
+    scanf("%f",&a);
 
     printf("Enter value of \"b\"=");
-    scanf("%d",&b);
+    scanf("%f",&b);
 
     add = a+b;
     mul = a*b;
@@ -17,9 +17,9 @@ void main() {
     sub = a-b;
     
     printf("\n\n*******************************************\n\n");
-    printf("Addition of \"a\" and \"b\" is : %d \n",add);
-    printf("Multiplication of \"a\" and \"b\" is : %d \n",mul);
+    printf("Addition of \"a\" and \"b\" is : %f \n",add);
+    printf("Multiplication of \"a\" and \"b\" is : %f \n",mul);
     printf("Divison of \"a\" and \"b\" is : %f \n",div);
-    printf("Substraction of \"a\" and \"b\" is : %d \n\n",sub);
+    printf("Substraction of \"a\" and \"b\" is : %f \n\n",sub);
     printf("*******************************************\n");
 }
